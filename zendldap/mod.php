@@ -86,7 +86,7 @@ if(isset($_POST['uid']) && isset($_POST['unorg']) && isset($_POST['atribut']) &&
 	</head>
   	<body>
     	<h2>Formulari de modificació d'usuari</h2>
-    	<form action="./modifica.php" method="POST"> UID: <input type="text" name="uid">
+    	<form action="./mod.php" method="POST"> UID: <input type="text" name="uid">
       		<br> Unitat organitzativa: <input type="text" name="unorg">
       		<br> Nou atribut: <input type="text" name="nou_contingut">
       		<br>
@@ -129,6 +129,6 @@ if(isset($_POST['uid']) && isset($_POST['unorg']) && isset($_POST['atribut']) &&
       		<input type="submit" />
       		<input type="reset" />
     	</form>
-    	<a href="menu.php">Tornar al menú </a>
+    	<a href="ini.php">Tornar al menú </a>
 	</body>
 </html>

@@ -132,7 +132,7 @@
 	</head>
 	<body>
 		<h2>Afegir</h2>
-		<form action="afegir.php" method="POST"> UID: <input type="text" name="uid">
+		<form action="add.php" method="POST"> UID: <input type="text" name="uid">
 			<br> Unitat organitzativa: <input type="text" name="unitat">
       		<br> uid number: <input type="number" name="num_id">
       		<br> gid number: <input type="number" name="grup">

@@ -58,6 +58,6 @@ if ($_GET['usr'] && $_GET['ou']){
 			<input type="submit"/>
 			<input type="reset"/>
 		</form>
-		<a href="menu.php">Tornar al menú </a>
+		<a href="ini.php">Tornar al menú </a>
 	</body>
 </html>
